@@ -1,0 +1,35 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "wellpay-20190210231824-authRole",
+			"UnauthRoleArn": "arn:aws:iam::545300626944:role/wellpay-20190210231824-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::545300626944:role/wellpay-20190210231824-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "wellpay-20190210231824-deployment",
+			"UnauthRoleName": "wellpay-20190210231824-unauthRole",
+			"StackName": "wellpay-20190210231824",
+			"StackId": "arn:aws:cloudformation:us-east-1:545300626944:stack/wellpay-20190210231824/38d612d0-2dcd-11e9-9f2a-1202dd259b0c"
+		}
+	},
+	"auth": {
+		"cognito89f7a515": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/wellpay-20190210231824-deployment/amplify-cfn-templates/auth/cognito89f7a515-cloudformation-template.yml",
+				"logicalId": "authcognito89f7a515"
+			},
+			"lastPushTimeStamp": "2019-02-11T08:09:08.666Z",
+			"output": {
+				"AppClientSecret": "p6gt1ql9tpkv2s3tbqbg5tmggsp5cr7l0t1p2kebpa1tkfh07n9",
+				"UserPoolId": "us-east-1_rftqJvfPy",
+				"AppClientIDWeb": "43aj887ji0naktucn5d01ji3b8",
+				"AppClientID": "2oauho5cm24jd6qgsenrs131t1",
+				"IdentityPoolId": "us-east-1:30ab1e84-8ab7-47b3-9aa9-d7b177f6c2b5",
+				"IdentityPoolName": "cognito89f7a515_identitypool_89f7a515",
+				"UserPoolName": "cognito89f7a515_userpool_89f7a515"
+			},
+			"lastPushDirHash": "FXb9bjxBl4T83sG3dKMwQhep35Y="
+		}
+	}
+}

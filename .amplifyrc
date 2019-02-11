@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "wellpay-20190210231824-authRole",
+            "UnauthRoleArn": "arn:aws:iam::545300626944:role/wellpay-20190210231824-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::545300626944:role/wellpay-20190210231824-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "wellpay-20190210231824-deployment",
+            "UnauthRoleName": "wellpay-20190210231824-unauthRole",
+            "StackName": "wellpay-20190210231824",
+            "StackId": "arn:aws:cloudformation:us-east-1:545300626944:stack/wellpay-20190210231824/38d612d0-2dcd-11e9-9f2a-1202dd259b0c"
+        }
+    }
+}
